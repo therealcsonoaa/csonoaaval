@@ -1,0 +1,47 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.playlist {
+    width: 350px;
+    background: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 255, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+}
+
+.cover img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.musicControls button {
+    background: #1db954;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.musicControls button:hover {
+    background: #1aa34a;
+}
+
+.mix h3 {
+    margin-top: 10px;
+}
+
+.volume input {
+    width: 80%;
+    margin-top: 20px;
+}

@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffcccc;
+    text-align: center;
+    padding: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hearts {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    pointer-events: none;
+}
+
+.heartfelt-message {
+    font-size: 1.5em;
+    color: #ff3366;
+    margin-bottom: 20px;
+}
+
+.question {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.valentine-btn {
+    background: linear-gradient(45deg, #ff3366, #ff6699);
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.valentine-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 51, 102, 1);
+}
+
+.no {
+    background: linear-gradient(45deg, #444, #ff0033);
+}
+
+.meme {
+    margin-top: 20px;
+}
+
+.meme img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+}

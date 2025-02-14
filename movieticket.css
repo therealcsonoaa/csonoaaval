@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.movieTicket {
+    width: 350px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+}
+
+.poster img {
+    width: 100%;
+}
+
+.details {
+    padding: 15px;
+}
+
+.details h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.qrcode img {
+    width: 80px;
+    margin-top: 10px;
+}
+
+.bookbtn {
+    background: #e50914;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.bookbtn:hover {
+    background: #b20710;
+}
